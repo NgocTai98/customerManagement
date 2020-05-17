@@ -19,7 +19,7 @@
                         <img src="../img/{{ $item->img }}" alt="">
                         @break
                         @endforeach --}}
-                        <img src="../img/{{ $row->image->first()->img }}" alt="">
+                        {{-- <img src="../img/{{ $row->image->first()->img }}" alt=""> --}}
                         
                         <ul>
                             <li><a onclick="return delPro()" href="/del-product/{{ $row->id }}"><i class="fa fa-remove"></i></a></li>
